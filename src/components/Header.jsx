@@ -33,6 +33,7 @@ const Header = () => {
     { name: 'Home', href: '#home' },
     { name: 'Process', href: '#process' },
     { name: 'Types', href: '#types' },
+    { name: 'EVM Simulator', href: '#evm' },
     { name: 'Importance', href: '#importance' },
     { name: 'Quiz', href: '#interactive' },
   ];
@@ -47,23 +48,23 @@ const Header = () => {
         </div>
 
         {/* Desktop Nav */}
-        <nav className="flex items-center gap-6" style={{ display: 'none' }}>
+        <nav className="desktop-nav items-center gap-6">
           {navLinks.map((link) => (
-            <a key={link.name} href={link.href} className="nav-link" style={{ fontWeight: 500, transition: 'color 0.2s' }}>
+            <a key={link.name} href={link.href} className="nav-link">
               {link.name}
             </a>
           ))}
-          <button onClick={toggleDarkMode} className="btn-outline flex items-center justify-center" style={{ padding: '0.5rem', borderRadius: '50%' }} aria-label="Toggle Dark Mode">
+          <button onClick={toggleDarkMode} className="btn-outline flex items-center justify-center" style={{ padding: '0.5rem', borderRadius: '50%', marginLeft: '0.5rem' }} aria-label="Toggle Dark Mode">
             {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
           </button>
         </nav>
 
         {/* Mobile Menu Button */}
-        <div className="flex items-center gap-4" style={{ display: 'flex' }}>
+        <div className="mobile-nav-toggle items-center gap-4">
           <button onClick={toggleDarkMode} className="btn-outline flex items-center justify-center" style={{ padding: '0.5rem', borderRadius: '50%' }} aria-label="Toggle Dark Mode">
             {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
           </button>
-          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="btn-outline" style={{ padding: '0.5rem', border: 'none' }}>
+          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="btn-outline flex items-center justify-center" style={{ padding: '0.5rem', border: 'none' }}>
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>

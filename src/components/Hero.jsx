@@ -24,6 +24,9 @@ const Hero = () => {
           <a href="#types" className="btn btn-outline" style={{ fontSize: '1.1rem', padding: '1rem 2rem' }}>
             Types of Elections
           </a>
+          <a href="#evm" className="btn btn-outline" style={{ fontSize: '1.1rem', padding: '1rem 2rem', backgroundColor: 'var(--card-bg)', color: 'var(--text-color)', borderColor: 'var(--border-color)' }}>
+            Try EVM Simulator
+          </a>
           <a href="#importance" className="btn btn-green" style={{ fontSize: '1.1rem', padding: '1rem 2rem' }}>
             Why Vote?
           </a>
