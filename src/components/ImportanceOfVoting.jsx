@@ -11,12 +11,15 @@ const ImportanceOfVoting = () => {
         </div>
 
         <div className="flex flex-col md:flex-row gap-8 items-center mt-8">
-          <div style={{ flex: 1 }}>
+          <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '1rem' }}>
             <img 
-              src="https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?auto=format&fit=crop&w=800&q=80" 
-              alt="People showing inked fingers after voting" 
+              src="https://assets.carnegieendowment.org/_/eyJrZXkiOiJzdGF0aWMvbWVkaWEvaW1hZ2VzL0dldHR5SW1hZ2VzLTQ2MzM1MzQ0OS5qcGcifQ==" 
+              alt="People voting in India" 
               style={{ width: '100%', borderRadius: 'var(--radius-lg)', boxShadow: 'var(--shadow-lg)' }}
             />
+            <blockquote style={{ fontStyle: 'italic', color: 'var(--color-navy)', fontSize: '1.25rem', textAlign: 'center', padding: '1rem', borderLeft: '4px solid var(--color-saffron)', backgroundColor: 'rgba(255,153,51,0.05)', borderRadius: '0 var(--radius-md) var(--radius-md) 0' }}>
+              "Government of the people, by the people, for the people"
+            </blockquote>
           </div>
           
           <div style={{ flex: 1 }} className="flex flex-col gap-6">
