@@ -1,16 +1,73 @@
-# React + Vite
+# 🇮🇳 IndiaVotes: Election Awareness Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+IndiaVotes is a modern, responsive, and educational web application designed to increase awareness about the Indian electoral process. Built to demystify the world's largest democratic exercise, the platform provides an interactive and engaging way for citizens to understand their voting rights, how elections work, and how to cast their vote.
 
-Currently, two official plugins are available:
+## ✨ Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Interactive EVM & VVPAT Simulator:** A fully functional simulator that allows users to experience casting a vote on an Electronic Voting Machine, complete with audio feedback and a 7-second Voter Verifiable Paper Audit Trail (VVPAT) simulation.
+- **Visual Process Timeline:** A scroll-triggered, step-by-step visual breakdown of the 11 key stages of an Indian election—from the announcement of dates to the formation of the government.
+- **Election Types Breakdown:** Clear, expandable comparison cards explaining the differences between Lok Sabha, Vidhan Sabha, Local Bodies, and Presidential elections.
+- **Interactive Quiz & FAQs:** Test your knowledge with a quick quiz, explore frequently asked questions, and debunk common election myths.
+- **Modern UI/UX:** Built with a beautiful "glassmorphism" aesthetic, utilizing colors inspired by the Indian flag (Saffron, White, Green, and Navy Blue).
+- **Responsive & Accessible:** Fully responsive design with a sleek mobile navigation menu and a built-in Dark/Light theme toggle.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework:** [React 18](https://reactjs.org/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** Vanilla CSS (CSS3 with custom variables, grid, flexbox, and animations)
+- **Icons:** [Lucide React](https://lucide.dev/)
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run this project locally on your machine, follow these steps:
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) (version 16 or higher) installed.
+
+### Installation
+
+1. Navigate to the project directory:
+   ```bash
+   cd election_process
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. View the app:
+   Open your browser and navigate to the URL provided in your terminal (usually `http://localhost:5173`).
+
+## 📁 Project Structure
+
+```text
+src/
+├── components/
+│   ├── Header.jsx             # Navigation and theme toggle
+│   ├── Hero.jsx               # Landing section with CTA buttons
+│   ├── ProcessTimeline.jsx    # Vertical timeline of election steps
+│   ├── ElectionTypes.jsx      # Expandable cards and comparison table
+│   ├── HowEVMWorks.jsx        # EVM/VVPAT interactive simulator
+│   ├── ImportanceOfVoting.jsx # Educational content & quotes
+│   ├── InteractiveSection.jsx # Quiz, FAQs, and Myth vs. Fact
+│   └── Footer.jsx             # Quick links and official resources (NVSP)
+├── App.jsx                    # Main application container
+├── index.css                  # Global styles, variables, and utility classes
+└── main.jsx                   # React entry point
+```
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
+## 📜 Disclaimer
+This is an educational project and is **not** an official government website. For official election information and voter registration, please visit the [Election Commission of India (ECI)](https://eci.gov.in/) and the [National Voter's Service Portal (NVSP)](https://voters.eci.gov.in/).
+
+---
+*Built with ❤️ for democracy.*
