@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import ProcessTimeline from './components/ProcessTimeline';
 import ElectionTypes from './components/ElectionTypes';
+import HowEVMWorks from './components/HowEVMWorks';
 import ImportanceOfVoting from './components/ImportanceOfVoting';
 import InteractiveSection from './components/InteractiveSection';
 import Footer from './components/Footer';
@@ -36,6 +37,7 @@ function App() {
         <Hero />
         <ProcessTimeline />
         <ElectionTypes />
+        <HowEVMWorks />
         <ImportanceOfVoting />
         <InteractiveSection />
       </main>

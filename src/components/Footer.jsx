@@ -3,7 +3,7 @@ import { ExternalLink, Vote } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer style={{ backgroundColor: 'var(--color-navy)', color: 'white', padding: '4rem 0 2rem 0', marginTop: '4rem' }}>
+    <footer style={{ backgroundColor: '#000080', color: 'white', padding: '4rem 0 2rem 0', marginTop: '4rem' }}>
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           
@@ -49,6 +49,17 @@ const Footer = () => {
                   style={{ color: '#cbd5e1', textDecoration: 'underline', fontSize: '0.95rem' }}
                 >
                   Election Commission of India
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://www.youtube.com/results?search_query=how+evm+vvpat+works+election+commission+of+india" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2"
+                  style={{ color: '#cbd5e1', textDecoration: 'none', fontSize: '0.95rem', marginTop: '0.5rem' }}
+                >
+                  <span style={{ color: '#ef4444' }}>▶</span> How EVM/VVPAT Works (YouTube)
                 </a>
               </li>
             </ul>
