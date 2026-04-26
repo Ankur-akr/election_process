@@ -19,7 +19,7 @@ const Hero = () => {
         <p className="subtitle" style={{ fontSize: 'clamp(1rem, 3vw, 1.25rem)', marginBottom: '3rem', maxWidth: '800px', margin: '0 auto 3rem' }}>
           Discover the strength of democracy. Learn how the world's largest democratic exercise is conducted, understand your rights, and make an informed choice for the nation's future.
         </p>
-        <div className="flex justify-center gap-4 flex-wrap" style={{ maxWidth: '800px', margin: '0 auto', padding: '0 1rem' }}>
+        <div className="hero-buttons" style={{ maxWidth: '800px', margin: '0 auto', padding: '0 1rem' }}>
           <a href="#process" className="btn btn-primary" style={{ fontSize: '1rem', padding: '0.8rem 1.5rem', flex: '1 1 200px' }}>
             Learn Process
           </a>

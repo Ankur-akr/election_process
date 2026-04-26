@@ -6,6 +6,7 @@ import ElectionTypes from './components/ElectionTypes';
 import HowEVMWorks from './components/HowEVMWorks';
 import ImportanceOfVoting from './components/ImportanceOfVoting';
 import InteractiveSection from './components/InteractiveSection';
+import VoterPledge from './components/VoterPledge';
 import Footer from './components/Footer';
 import './index.css';
 
@@ -40,6 +41,7 @@ function App() {
         <HowEVMWorks />
         <ImportanceOfVoting />
         <InteractiveSection />
+        <VoterPledge />
       </main>
       <Footer />
     </>

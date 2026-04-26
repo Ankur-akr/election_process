@@ -3,7 +3,7 @@ import { ExternalLink, Vote } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer style={{ backgroundColor: '#000080', color: 'white', padding: '4rem 0 2rem 0', marginTop: '4rem' }}>
+    <footer style={{ backgroundColor: '#000080', color: 'white', padding: '4rem 0 2rem 0' }}>
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           
