@@ -20,16 +20,16 @@ const Hero = () => {
           Discover the strength of democracy. Learn how the world's largest democratic exercise is conducted, understand your rights, and make an informed choice for the nation's future.
         </p>
         <div className="hero-buttons" style={{ maxWidth: '800px', margin: '0 auto', padding: '0 1rem' }}>
-          <a href="#process" className="btn btn-primary" style={{ fontSize: '1rem', padding: '0.8rem 1.5rem', flex: '1 1 200px' }}>
+          <a href="#process" className="btn btn-primary hero-btn">
             Learn Process
           </a>
-          <a href="#types" className="btn btn-outline" style={{ fontSize: '1rem', padding: '0.8rem 1.5rem', flex: '1 1 200px' }}>
+          <a href="#types" className="btn btn-outline hero-btn">
             Types of Elections
           </a>
-          <a href="#evm" className="btn btn-outline" style={{ fontSize: '1rem', padding: '0.8rem 1.5rem', flex: '1 1 200px', backgroundColor: 'var(--card-bg)', color: 'var(--text-color)', borderColor: 'var(--border-color)' }}>
+          <a href="#evm" className="btn btn-outline hero-btn" style={{ backgroundColor: 'var(--card-bg)', color: 'var(--text-color)', borderColor: 'var(--border-color)' }}>
             Try EVM Simulator
           </a>
-          <a href="#importance" className="btn btn-green" style={{ fontSize: '1rem', padding: '0.8rem 1.5rem', flex: '1 1 200px' }}>
+          <a href="#importance" className="btn btn-green hero-btn">
             Why Vote?
           </a>
         </div>
