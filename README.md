@@ -1,18 +1,32 @@
 # 🇮🇳 IndiaVotes: Election Awareness Platform
 
 🚀 Live Demo: https://indiavotes.firebaseapp.com/
+<br>
 📂 GitHub Repository: https://github.com/Ankur-akr/election_process
 
 IndiaVotes is a modern, responsive, and educational web application designed to increase awareness about the Indian electoral process. Built to demystify the world's largest democratic exercise, the platform provides an interactive and engaging way for citizens to understand their voting rights, how elections work, and how to cast their vote.
 
 ## ✨ Key Features
 
-- **Interactive EVM & VVPAT Simulator:** A fully functional simulator that allows users to experience casting a vote on an Electronic Voting Machine, complete with audio feedback and a 7-second Voter Verifiable Paper Audit Trail (VVPAT) simulation.
-- **Visual Process Timeline:** A scroll-triggered, step-by-step visual breakdown of the 11 key stages of an Indian election—from the announcement of dates to the formation of the government.
-- **Election Types Breakdown:** Clear, expandable comparison cards explaining the differences between Lok Sabha, Vidhan Sabha, Local Bodies, and Presidential elections.
-- **Interactive Quiz & FAQs:** Test your knowledge with a quick quiz, explore frequently asked questions, and debunk common election myths.
-- **Modern UI/UX:** Built with a beautiful "glassmorphism" aesthetic, utilizing colors inspired by the Indian flag (Saffron, White, Green, and Navy Blue).
-- **Responsive & Accessible:** Fully responsive design with a sleek mobile navigation menu and a built-in Dark/Light theme toggle.
+🗳 Interactive EVM & VVPAT Simulator
+Simulates the real voting experience
+Helps users understand how electronic voting works
+
+📅 Election Timeline Visualization
+Displays the step-by-step election process
+Makes complex procedures easier to 
+
+❓ Quizzes & FAQs
+Interactive quizzes to test election knowledge
+Frequently asked questions for awareness
+
+📱 Responsive UI
+Fully responsive modern interface
+Optimized for desktop and mobile devices
+
+🎨 Clean User Experience
+Minimal and intuitive design
+Smooth navigation and animations
 
 ## 🛠️ Tech Stack
 
@@ -22,8 +36,8 @@ IndiaVotes is a modern, responsive, and educational web application designed to 
 - **Icons:** [Lucide React](https://lucide.dev/)
   
 ## 📸 Screenshots
-![Homepage]()
-![EVM Simulator]()
+![Homepage](Screenshot%202026-05-29%20000813.png)
+![EVM Simulator](Screenshot%202026-05-29%20000903.png)
 ## 🚀 Getting Started
 
 To run this project locally on your machine, follow these steps:
