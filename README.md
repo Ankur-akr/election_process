@@ -1,5 +1,8 @@
 # 🇮🇳 IndiaVotes: Election Awareness Platform
 
+🚀 Live Demo: https://indiavotes.firebaseapp.com/
+📂 GitHub Repository: https://github.com/Ankur-akr/election_process
+
 IndiaVotes is a modern, responsive, and educational web application designed to increase awareness about the Indian electoral process. Built to demystify the world's largest democratic exercise, the platform provides an interactive and engaging way for citizens to understand their voting rights, how elections work, and how to cast their vote.
 
 ## ✨ Key Features
@@ -17,7 +20,10 @@ IndiaVotes is a modern, responsive, and educational web application designed to 
 - **Build Tool:** [Vite](https://vitejs.dev/)
 - **Styling:** Vanilla CSS (CSS3 with custom variables, grid, flexbox, and animations)
 - **Icons:** [Lucide React](https://lucide.dev/)
-
+  
+## 📸 Screenshots
+![Homepage]()
+![EVM Simulator]()
 ## 🚀 Getting Started
 
 To run this project locally on your machine, follow these steps:
