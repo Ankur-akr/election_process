@@ -1,6 +1,6 @@
 # 🇮🇳 IndiaVotes: Election Awareness Platform
 
-🚀 Live Demo: https://indiavotes.firebaseapp.com/
+🚀 Live Demo: https://indiavotes.ankurrai.in/
 <br>
 📂 GitHub Repository: https://github.com/Ankur-akr/election_process
 
