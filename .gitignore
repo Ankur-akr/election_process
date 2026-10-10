@@ -4,6 +4,9 @@ node_modules/
 # Build output
 dist/
 dist-ssr/
+.agents
+.cluade
+.junie
 
 # Environment variables and local overrides
 .env
